@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    font-family: 'MuseoModerno', cursive;
+}
+h1{
+    font-size: 40px;
+    
+}
+.name-highlight{
+    color: orange;
+}
+.first-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5% ;
+    padding-left: 2%;
+}
+.top-banner{
+    background-repeat: no-repeat;
+    background-image: url("images/top-banner.png");
+}
+section{
+    height: 500px;
+}
+img{
+    width: 500px;
+}
