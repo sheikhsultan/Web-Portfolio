@@ -6,14 +6,28 @@ h1{
     font-size: 40px;
     
 }
-.name-highlight{
+h2{
+    font-size: 35px;
+}
+p{
+    color: dimgray;
+    font-size: 12px;
+    text-align: justify;
+}
+.orange-highlight{
     color: orange;
 }
-.first-half-width{
+.half-width{
     width: 40%;
     float: left;
-    margin-left: 5% ;
-    padding-left: 2%;
+    margin-left: 4% ;
+    padding-left: 3%;
+    font-weight: 500;
+
+}
+/* image width so that it doesent went wrong size */
+.half-width img{
+    width: 100%;
 }
 .top-banner{
     background-repeat: no-repeat;
@@ -21,7 +35,43 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 80px;
 }
-img{
-    width: 500px;
+/* hire me button */
+.anchor-button{
+    text-decoration: none;
+    background-image:linear-gradient( lightsalmon, tomato);
+    padding: 8px 30px;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    /* border-radius: 10px; */
+    height: 60%;   
+    width: 41%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red, tomato );
+    border-image-slice: 1;
+    background-color: white;
+
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue, cyan );
+    border-image-slice: 1;
 }
